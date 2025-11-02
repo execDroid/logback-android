@@ -60,9 +60,9 @@ public class ClassicEnvUtil {
      * @return current version or null if missing version data
      */
     static public String getVersionOfLogbackClassic() {
-        String moduleVersion = getVersionOfLogbackClassicByModule();
-        if (moduleVersion != null)
-            return moduleVersion;
+//        String moduleVersion = getVersionOfLogbackClassicByModule();
+//        if (moduleVersion != null)
+//            return moduleVersion;
 
         Package pkg = ClassicEnvUtil.class.getPackage();
         if (pkg == null) {
